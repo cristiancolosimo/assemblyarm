@@ -7,7 +7,7 @@ int_scan: .asciz "%d"
 int_print: .asciz "%d\n"
 scan_req: .asciz "value: "
 richiesta_1: .asciz "quanti valori vuoi sommare ?"
-richiesta_2: .asciz "Inserisci valore da sommare"
+richiesta_2: .asciz "Inserisci valore da sommare: "
 
 .section .data
 max: .quad 10
